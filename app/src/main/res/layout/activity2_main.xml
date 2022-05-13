@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_style"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:text="new button"
+        android:background="@drawable/button2_style"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:id="@+id/generateNewButtonBtn"
+        />
+
+    <!--
+
+    i was just trying to edit the file with VsCode (Visual Studio Code)
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/generateNewButtonBtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button2_style"
+        android:layout_marginTop="10dp"
+        android:id="@+id/new_Test_Button"
+        android:text="text"
+    />
+
+
+
+    -->
+</RelativeLayout>

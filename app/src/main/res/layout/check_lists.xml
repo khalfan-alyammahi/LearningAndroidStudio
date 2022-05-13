@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/movies_Rel_Layout"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp">
+
+       <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Harry Potter"
+           android:id="@+id/check_box_harry"
+           android:checked="true"
+           android:buttonTint="@android:color/holo_green_light" />
+
+       <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="The Matrix"
+           android:id="@+id/check_box_Matrix"
+           android:checked="true"
+           android:buttonTint="@android:color/holo_green_light"
+           android:layout_toRightOf="@+id/check_box_harry"
+           android:layout_marginLeft="15dp"/>
+
+       <CheckBox
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Joker"
+           android:id="@+id/check_box_Joker"
+           android:checked="false"
+           android:buttonTint="@android:color/holo_green_light"
+           android:layout_toRightOf="@+id/check_box_Matrix"
+           android:layout_marginLeft="15dp"/>
+
+   </RelativeLayout>
+
+</RelativeLayout>

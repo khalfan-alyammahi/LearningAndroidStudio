@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hello world!"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/txtWelcome"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter you're name"
+        android:id="@+id/edtTxtName"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/textWelcomeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_style"
+        android:text="Say Hello"
+        android:textColor="@color/white"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textWelcomeBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="RESET"
+        android:id="@+id/reset_button"
+        android:background="@drawable/button_style"/>
+
+
+
+
+</RelativeLayout>
+
