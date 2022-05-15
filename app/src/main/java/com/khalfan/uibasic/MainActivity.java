@@ -40,10 +40,9 @@ public class MainActivity extends AppCompatActivity {
         btnHello.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(editTextName.getText().toString().length() == 3 || editTextName.getText().toString().length() > 3){
-                    // because there is no name with two letters but there is names with three letters like (Tom , Tim )
-                    textMessage.setText("you have to enter you're name");
-                    return;
+                if(editTextName.getText().toString().length() < 3){
+                    textMessage.setText("you have to enter your name");
+                    return ;
                 }
                 if(index == 1){
                     textMessage.setText("Hello " + editTextName.getText().toString());

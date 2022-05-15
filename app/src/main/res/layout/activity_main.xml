@@ -23,7 +23,8 @@
         android:layout_above="@+id/txtWelcome"
         android:layout_centerHorizontal="true"
         android:hint="Enter you're name"
-        android:id="@+id/edtTxtName"/>
+        android:id="@+id/edtTxtName"
+        android:inputType="textPersonName"/>
 
 
     <androidx.appcompat.widget.AppCompatButton
