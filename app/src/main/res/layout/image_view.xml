@@ -10,4 +10,12 @@
         android:id="@+id/myImage"
         android:layout_centerInParent="true"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/solo_leveling_button"
+        android:text="Change VISIBILTY"
+        android:layout_below="@id/myImage"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

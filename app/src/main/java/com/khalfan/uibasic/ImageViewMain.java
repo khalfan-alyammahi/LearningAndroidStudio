@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -26,10 +27,30 @@ import java.util.Random;
 
 
 public class ImageViewMain extends AppCompatActivity {
+    private ImageView soloLeveling ;
+    private boolean isClicked = false;
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_view);
+
+        soloLeveling = findViewById(R.id.myImage);
+        Button changeVisibilityButton = findViewById(R.id.solo_leveling_button);
+
+        changeVisibilityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(!isClicked){
+                    soloLeveling.setVisibility(View.INVISIBLE);
+                    isClicked = !isClicked;
+                }else{
+                    soloLeveling.setVisibility(View.VISIBLE);
+                    isClicked = !isClicked;
+                }
+            }
+        });
+
+
     }
 }
