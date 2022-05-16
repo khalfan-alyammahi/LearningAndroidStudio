@@ -15,4 +15,5 @@
     <color name ="holo_green_dark">#669900</color>
     <color name="colorPrimary2" >#d635c7</color>
     <color name="blue">#00e1ff</color>
+    <color name="orange">#FFC107</color>
 </resources>
