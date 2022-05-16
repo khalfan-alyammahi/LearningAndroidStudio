@@ -9,7 +9,11 @@
 
     </string-array>
 
-    <string-array name="spinner">
+    <string-array name="classes">
+        <item>09 G 1</item>
+        <item>09 G 2</item>
+        <item>09 G 3</item>
+        <item>09 G 4</item>
         <item>10 A 1</item>
         <item>10 A 2</item>
         <item>10 A 3</item>

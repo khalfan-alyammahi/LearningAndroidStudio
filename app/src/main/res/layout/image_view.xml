@@ -10,6 +10,14 @@
         android:id="@+id/myImage"
         android:layout_centerInParent="true"/>
 
+    <TextView
+        android:id="@+id/ImageTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/holo_green_dark"
+        android:textSize="25sp"/>
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

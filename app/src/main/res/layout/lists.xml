@@ -16,6 +16,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:id="@+id/studentsSpinner"
-        android:entries="@array/spinner"/>
+        android:entries="@array/classes"/>
 
 </RelativeLayout>
