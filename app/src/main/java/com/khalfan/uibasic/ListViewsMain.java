@@ -78,6 +78,7 @@ public class ListViewsMain extends AppCompatActivity {
         cities.add("Berlin");
         cities.add("Madrid");
 
+
         ArrayAdapter<String> citiesAdapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1,
