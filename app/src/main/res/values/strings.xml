@@ -8,6 +8,13 @@
         <item>Tom</item>
 
     </string-array>
+
+    <string-array name="spinner">
+        <item>10 A 1</item>
+        <item>10 A 2</item>
+        <item>10 A 3</item>
+        <item>10 A 4</item>
+    </string-array>
     <string name="hello">Hello</string>
 
 </resources>

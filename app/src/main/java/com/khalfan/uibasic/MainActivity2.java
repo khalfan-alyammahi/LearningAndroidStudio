@@ -37,6 +37,8 @@ public class MainActivity2 extends AppCompatActivity {
             public void run() {
                 for(int i = 0 ; i<10 ; i++){
                     progressBar.incrementProgressBy(10);
+                    // stops the code for 500ms (0.5 second ) then run it again it's like threading
+                    // but this method only works in android studio it does not run in normal java file
                     SystemClock.sleep(500);
                 }
             }
